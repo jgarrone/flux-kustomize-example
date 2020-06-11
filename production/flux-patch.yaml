@@ -5,4 +5,4 @@ metadata:
   annotations:
     fluxcd.io/automated: "true"
   name: podinfo
-  namespace: demo
+  namespace: demo-prod
