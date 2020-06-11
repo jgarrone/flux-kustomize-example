@@ -3,7 +3,7 @@ apiVersion: autoscaling/v2beta1
 kind: HorizontalPodAutoscaler
 metadata:
   name: podinfo
-  namespace: demo
+  namespace: demo-prod
 spec:
   minReplicas: 3
   maxReplicas: 4
